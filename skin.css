@@ -2350,3 +2350,15 @@ MOBILE - RESPONSIVE
 .rig{
     float: right !important;
 }
+
+hr.space.c{
+    height: 35px !important;
+}
+
+.bg-12{
+    background-image: url("images/bg-12.jpg");
+}
+
+.bg-asus{
+    background-image: url("images/produk/asus/banner.jpg");
+}
