@@ -723,7 +723,7 @@ ul.list-texts li b {
 
 .title-base h2, .title-base h1, .title-icon h2, .title-icon h1, .title-base.title-small h2 {
     font-weight: 500;
-    font-size: 24px;
+    font-size: 35px;
     line-height: 32px;
     text-transform: none;
     margin-top: 0;
@@ -736,7 +736,7 @@ ul.list-texts li b {
 }
 
 .title-base {
-    margin-bottom: 30px;
+    margin-top: 75px;
 }
 
 .header-title .title-base, .header-video .title-base, .header-slider .title-base {
@@ -909,7 +909,7 @@ div .countdown > div:last-child:after {
 }
 
     .header-base.bg-cover {
-        height: 350px;
+        height: 280px;
     }
 
     .header-base .title-base p {
@@ -1201,8 +1201,8 @@ header form a.btn-search {
     }
 
 .nav.ms-minimal > li > a, .nav.ms-minimal > li:last-child > a {
-    padding-bottom: 15px;
-    padding-right: 18px;
+    padding-bottom: 10px;
+    padding-right: 11px;
 }
 
 .nav.inner .caret:before {
@@ -1354,6 +1354,7 @@ a.thumbnail {
     display: block;
     float: left;
     margin: 0;
+    width: 220px;
 }
 
 .nav-tabs > li a {
@@ -1886,7 +1887,7 @@ body .adv-img-button-content .caption i {
 }
 
 .advs-box h3 {
-    font-size: 18px;
+    font-size: 22px;
     line-height: 24px;
     font-weight: 500;
     margin-bottom: 15px;
@@ -2361,4 +2362,58 @@ hr.space.c{
 
 .bg-asus{
     background-image: url("images/produk/asus/banner.jpg");
+}
+
+.ar ul.nav{
+    text-align: right !important;
+    position: absolute;
+    top: -50px;
+}
+
+.sp p{
+    font-size: 20px ;
+    line-height: 35px;
+}
+
+.maso-item{
+    margin-top: 20px;
+}
+.tr{
+    text-align: right;
+}
+
+@media (max-width: 992px){
+.h-0 li img {
+    height: auto !important;
+}
+
+.ar{
+    margin-top: 20px;
+}
+
+.maso-item{
+    margin-top: 0px;
+}
+
+.rig{
+    float: none !important;
+}
+
+.ar ul.nav{
+    top: 0;
+    position: relative;
+}
+
+.tr{
+    text-align: left !important;
+}
+
+.title-base {
+    margin-top: 35px;
+}
+
+.pt-20{
+    padding-top: 30px;
+}
+
 }

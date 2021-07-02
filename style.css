@@ -772,7 +772,7 @@ header > .navbar {
 .nav.inner.ms-rounded {
     background: none !important;
     border: none;
-    margin: -5px 0;
+    margin: 0px 0;
 }
 
     .nav.inner.ms-rounded li a {
@@ -4565,7 +4565,6 @@ LIST GRID & MASO
 .breadcrumb.b {
     background-color: rgba(0,0,0,0);
     padding: 0;
-    text-align: right;
 }
 
 .widget .tagbox {
@@ -5996,6 +5995,7 @@ button.navbar-toggle {
 
     .maso-item, .grid-item {
         overflow: visible !important;
+        padding: 15px !important;
     }
 
     .maso-list, .grid-list, body [class*="row-"] {
@@ -7082,9 +7082,6 @@ MOBILE - EXTRA SMALL SCREENS
         display: block !important;
     }
 
-    .col-xs-12, [class*="col-md-"].boxed-inverse, [class*="col-md-"].boxed {
-        width: 100% !important;
-    }
 
     .section-two-blocks {
         height: auto !important;
@@ -7176,4 +7173,31 @@ html.iex .img-box img {
 
 html.iex .footer-parallax {
     z-index: 0;
+}
+.blog-img .cntr{
+    width: 100%;
+}
+.panel h3{
+    font-size: 35px;
+}
+
+.panel h4{
+    color: #9a8d80;
+}
+
+
+.mt-30{
+    margin-top: 60px;
+}
+
+@media (max-width: 992px){
+    .mb-30 {
+        margin-bottom: 30px !important;
+    }
+    .mt-30{
+        margin-top: 25px;
+    }
+    .support{
+        text-align: center;
+    }
 }
