@@ -731,10 +731,6 @@ MULTIPLE
     z-index: 9;
 }
 
-.advs-box-multiple div i {
-    color: white;
-}
-
 .advs-box-multiple div.circle span {
     display: block;
     font-size: 12px;
@@ -752,9 +748,6 @@ MULTIPLE
     max-width: 100%;
 }
 
-.advs-box-multiple h3 {
-    padding-right: 100px;
-}
 
 .advs-box-multiple .circle > i {
     line-height: 62px;
