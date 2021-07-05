@@ -2389,6 +2389,10 @@ hr.space.c{
     margin-bottom:5px !important;
 }
 
+.mb-30{
+    margin-bottom: 30px;
+}
+
 #customers th {
     font-size: 1.1em;
     text-align: left;
