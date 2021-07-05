@@ -1354,7 +1354,6 @@ a.thumbnail {
     display: block;
     float: left;
     margin: 0;
-    width: 220px;
 }
 
 .nav-tabs > li a {
@@ -2382,6 +2381,37 @@ hr.space.c{
     text-align: right;
 }
 
+.box-w .nav-tabs > li{
+    width: 220px;
+}
+
+.mb-5{
+    margin-bottom:5px !important;
+}
+
+#customers th {
+    font-size: 1.1em;
+    text-align: left;
+    padding-top: 5px;
+    padding-bottom: 4px;
+    background-color: #0033FF;
+    color: #ffffff;
+    text-align: center;
+}
+
+#customers td, #customers th {
+    font-size: 9px;
+    font-weight: 500;
+    border: 1px solid #09C;
+    padding: 3px 7px 2px 7px;
+}
+
+.imgw{
+    width: 16rem;
+}
+
+
+
 @media (max-width: 992px){
 .h-0 li img {
     height: auto !important;
@@ -2412,8 +2442,6 @@ hr.space.c{
     margin-top: 35px;
 }
 
-.pt-20{
-    padding-top: 30px;
-}
+
 
 }

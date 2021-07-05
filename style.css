@@ -4288,7 +4288,7 @@ LIST GRID & MASO
 }
 
 .grid-box > .grid-item {
-    padding: 5px;
+    padding: 5px !important;
 }
 
 .grid-box .pagination-sm {
@@ -7178,7 +7178,7 @@ html.iex .footer-parallax {
     width: 100%;
 }
 .panel h3{
-    font-size: 35px;
+    font-size: 25px;
 }
 
 .panel h4{
