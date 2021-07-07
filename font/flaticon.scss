@@ -1,0 +1,77 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?580ee3fd9e42118796128439ee1d11a7") format("truetype"),
+url("./flaticon.woff?580ee3fd9e42118796128439ee1d11a7") format("woff"),
+url("./flaticon.woff2?580ee3fd9e42118796128439ee1d11a7") format("woff2"),
+url("./flaticon.eot?580ee3fd9e42118796128439ee1d11a7#iefix") format("embedded-opentype"),
+url("./flaticon.svg?580ee3fd9e42118796128439ee1d11a7#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "hdd": "\f101",
+    "hdd-1": "\f102",
+    "vga": "\f103",
+    "vga-card": "\f104",
+    "cpu": "\f105",
+    "ram": "\f106",
+    "memory": "\f107",
+    "operating-system": "\f108",
+    "inch": "\f109",
+    "size": "\f10a",
+    "monitor": "\f10b",
+    "usb-port": "\f10c",
+    "color": "\f10d",
+);
+
+.flaticon-hdd:before {
+    content: map-get($flaticon-map, "hdd");
+}
+.flaticon-hdd-1:before {
+    content: map-get($flaticon-map, "hdd-1");
+}
+.flaticon-vga:before {
+    content: map-get($flaticon-map, "vga");
+}
+.flaticon-vga-card:before {
+    content: map-get($flaticon-map, "vga-card");
+}
+.flaticon-cpu:before {
+    content: map-get($flaticon-map, "cpu");
+}
+.flaticon-ram:before {
+    content: map-get($flaticon-map, "ram");
+}
+.flaticon-memory:before {
+    content: map-get($flaticon-map, "memory");
+}
+.flaticon-operating-system:before {
+    content: map-get($flaticon-map, "operating-system");
+}
+.flaticon-inch:before {
+    content: map-get($flaticon-map, "inch");
+}
+.flaticon-size:before {
+    content: map-get($flaticon-map, "size");
+}
+.flaticon-monitor:before {
+    content: map-get($flaticon-map, "monitor");
+}
+.flaticon-usb-port:before {
+    content: map-get($flaticon-map, "usb-port");
+}
+.flaticon-color:before {
+    content: map-get($flaticon-map, "color");
+}

@@ -1,0 +1,63 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("./flaticon.ttf?580ee3fd9e42118796128439ee1d11a7") format("truetype"),
+url("./flaticon.woff?580ee3fd9e42118796128439ee1d11a7") format("woff"),
+url("./flaticon.woff2?580ee3fd9e42118796128439ee1d11a7") format("woff2"),
+url("./flaticon.eot?580ee3fd9e42118796128439ee1d11a7#iefix") format("embedded-opentype"),
+url("./flaticon.svg?580ee3fd9e42118796128439ee1d11a7#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    position: absolute;
+    line-height: 175%;
+    left: -2.08em;
+    width: 2.14285714em;
+    top: 1px;
+    font-weight: 530 !important;
+    font-size: 20px;
+    color: #0082b9;
+}
+
+.flaticon-hdd:before {
+    content: "\f101";
+}
+.flaticon-hdd-1:before {
+    content: "\f102";
+}
+.flaticon-vga:before {
+    content: "\f103";
+}
+.flaticon-vga-card:before {
+    content: "\f104";
+}
+.flaticon-cpu:before {
+    content: "\f105";
+}
+.flaticon-ram:before {
+    content: "\f106";
+}
+.flaticon-memory:before {
+    content: "\f107";
+}
+.flaticon-operating-system:before {
+    content: "\f108";
+}
+.flaticon-inch:before {
+    content: "\f109";
+}
+.flaticon-size:before {
+    content: "\f10a";
+}
+.flaticon-monitor:before {
+    content: "\f10b";
+}
+.flaticon-usb-port:before {
+    content: "\f10c";
+}
+.flaticon-color:before {
+    content: "\f10d";
+}
