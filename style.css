@@ -3522,7 +3522,7 @@ ICONS
 ==============================
 */
 .fa-ul > li, ul.no-icons li {
-    line-height: 200%;
+    line-height: 250%;
 }
 
     .fa-ul > li a {
@@ -7177,9 +7177,6 @@ html.iex .footer-parallax {
 .blog-img .cntr{
     width: 100%;
 }
-.panel h3{
-    font-size: 25px;
-}
 
 .panel h4{
     color: #9a8d80;
@@ -7189,6 +7186,7 @@ html.iex .footer-parallax {
 .mt-30{
     margin-top: 60px;
 }
+
 
 @media (max-width: 992px){
     .mb-30 {

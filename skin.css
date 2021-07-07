@@ -697,9 +697,6 @@ i.cover, i.onlycover {
     border-color: #dedede;
 }
 
-.text-bold {
-    font-weight: 400;
-}
 
 .text-black {
     font-weight: 500;
@@ -2186,7 +2183,7 @@ MOBILE - RESPONSIVE
 
     .tab-box .nav-tabs > li {
         border: none;
-        width: 100%;
+        width: 100% !important;
     }
 
     header .tab-box .nav-tabs > li {
@@ -2413,6 +2410,22 @@ hr.space.c{
 .imgw{
     width: 16rem;
 }
+
+.prod-details h3{
+    font-size: 25px;
+    margin-top: 30px;
+}
+.prod-details p{
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.prod-details li{
+    font-size: 20px;
+    line-height: 30px;
+}
+
+
 
 
 
